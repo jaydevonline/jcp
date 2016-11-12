@@ -1,0 +1,5 @@
+RewriteEngine On
+Options +FollowSymLinks
+
+
+RewriteRule ^addPost http://localhost/jcp/angular-app/views/partials/addPost [R=301,L]

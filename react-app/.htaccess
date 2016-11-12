@@ -1,0 +1,5 @@
+RewriteEngine On
+Options +FollowSymLinks
+
+RewriteRule ^home http://localhost/jcp/react-app/ [R=301,L]
+RewriteRule ^features http://localhost:3001/addPost [R=301,L]
